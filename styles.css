@@ -1,0 +1,212 @@
+body{
+	padding: 0;
+	background-color: black !important;
+	
+	width: 100%;
+	margin:auto !important;
+}
+
+* {
+	color:white !important;
+	box-sizing: border-box;
+	line-height: 2.0rem;
+}
+
+.header,.slogan,.more-projects,.current-projects,.random-shots,.foot{
+	margin: auto;
+	width: 90%;
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Alfa Slab One', cursive;
+
+    justify-items: start !important;
+    padding: 5px;
+}
+
+.header img{
+	width: 90px;
+	height: 80px;
+}
+
+.hd-nav-list ul,li{
+  display: inline;
+  list-style-type: none;
+  align-self: center;
+  font-family: 'Major Mono Display', monospace;
+  text-align: justify;
+}
+
+.hd-nav-list{
+	justify-items: end !important;
+
+	display: grid;
+	justify-self: end;
+}
+
+
+.hd-nav-list li{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.slogan{
+ height: 500px;
+ font-size: 2.2rem;
+
+ display: grid;
+ grid-template-columns: 1fr;
+ align-content: center;
+
+ font-family: 'Rubik Mono One', sans-serif;
+ font-weight: bolder;
+
+}
+
+.slogan h1{
+	line-height: 70px;
+	letter-spacing: 1.3px;
+	font-weight: bolder;
+	transform: scale(1.05);
+	word-wrap: break-word;
+}
+
+.aqua:hover{
+	color:aqua !important;
+}
+
+.newaqua{
+color:aqua !important;	
+}
+
+.current-projects{
+	font-family: 'Major Mono Display', monospace;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-top: 20px;
+}
+
+.c-projects{
+	width: 100%;
+	justify-content: center;
+}
+
+.c-project img{
+ width: 100%;
+ height: 500px;
+ margin-bottom: 20px;
+}
+
+h2{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 66px;
+}
+
+p{
+		font-family: 'Major Mono Display', monospace;
+
+    margin-left:85px;	
+}
+
+.other-interests h2{
+	margin-left: 85px;
+}
+
+.more-projects{
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 3px;
+	font-size: 25px;
+
+	display: grid;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+.m-project{
+	width: 500px;
+	height: 500px;
+}
+
+.m-project img{
+	width: 100%;
+}
+
+.other-interests{
+	background-image: url(http://stephencalvillodesign.com/wp-content/uploads/2014/09/dribbblebg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: scroll;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 3px;
+
+	padding: 20px;
+
+}
+
+.random-shots{
+    margin-top: 30px;
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	height: 500px;
+	padding: 20px;
+}
+
+.r-shots{
+ width: 250px;
+ height: 250px;
+}
+
+.r-shots img{
+width: 100%;
+}
+
+.footer{
+		background-color: #292a2c;
+}
+
+.foot{
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	height: 300px;
+}
+
+.list-item{
+	text-decoration: underline;
+	margin-top: 10px;
+	display: block;
+}
+
+.ender{
+	background-color: #292a2c;
+	padding: 10px;
+}
+
+.ender p{
+	margin-left: 95px;
+}
+
+
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&family=Rubik+Mono+One&family=Varela+Round&display=swap');
+</style>
